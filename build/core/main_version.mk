@@ -6,6 +6,7 @@ endif
 
 # crDroid System Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
+    ro.matrixx.build.type=$(MATRIXX_BUILD_TYPE) \
     ro.matrixx.build.version=$(LINEAGE_VERSION) \
     ro.matrixx.display.version=$(LINEAGE_DISPLAY_VERSION) \
     ro.matrixx.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
